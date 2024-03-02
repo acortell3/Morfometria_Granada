@@ -1,0 +1,776 @@
+"0","install.packages(c(""geomorph"",""Momocs""))
+"
+"2","Installing packages into ‘/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘magic’, ‘lpSolve’, ‘linprog’, ‘RcppProgress’, ‘geometry’
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/magic_1.6-1.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 190592 bytes (186 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 186 KB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/lpSolve_5.6.20.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 468218 bytes (457 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 457 KB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/linprog_0.9-4.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 18263 bytes (17 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 17 KB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/RcppProgress_0.4.2.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 12077 bytes (11 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 11 KB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/geometry_0.4.7.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 1056342 bytes (1.0 MB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 1.0 MB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/geomorph_4.0.6.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 3311806 bytes (3.2 MB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 3.2 MB
+
+"
+"2","trying URL 'https://cloud.r-project.org/src/contrib/Momocs_1.4.1.tar.gz'
+"
+"2","Content type 'application/x-gzip'"
+"2"," length 845331 bytes (825 KB)
+"
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","="
+"2","
+"
+"2","downloaded 825 KB
+
+"
+"2","* installing *source* package ‘magic’ ...
+"
+"2","** package ‘magic’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** R
+"
+"2","** data
+"
+"2","** inst
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","*** copying figures
+"
+"2","** building package indices
+"
+"2","** installing vignettes
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (magic)
+"
+"2","* installing *source* package ‘lpSolve’ ...
+"
+"2","** package ‘lpSolve’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** libs
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c colamd.c -o colamd.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c commonlib.c -o commonlib.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c hbio.c -o hbio.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c ini.c -o ini.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c init.c -o init.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c isfixedvar.c -o isfixedvar.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_Hash.c -o lp_Hash.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_LUSOL.c -o lp_LUSOL.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_MDO.c -o lp_MDO.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_MPS.c -o lp_MPS.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_SOS.c -o lp_SOS.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_crash.c -o lp_crash.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_lib.c -o lp_lib.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_matrix.c -o lp_matrix.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_mipbb.c -o lp_mipbb.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_params.c -o lp_params.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_presolve.c -o lp_presolve.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_price.c -o lp_price.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_pricePSE.c -o lp_pricePSE.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_report.c -o lp_report.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_rlp.c -o lp_rlp.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_scale.c -o lp_scale.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_simplex.c -o lp_simplex.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_utils.c -o lp_utils.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lp_wlp.c -o lp_wlp.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lpslink56.c -o lpslink56.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lusol.c -o lusol.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c lusolio.c -o lusolio.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mmio.c -o mmio.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c myblas.c -o myblas.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c sparselib.c -o sparselib.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG -I . -DINTEGERTIME -DPARSER_LP -DBUILDING_FOR_R -DYY_NEVER_INTERACTIVE -DUSRDLL -DCLOCKTIME -DRoleIsExternalInvEngine -DINVERSE_ACTIVE=INVERSE_LUSOL -DINLINE=static -DParanoia     -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c yacc_read.c -o yacc_read.o
+"
+"1","gcc -shared -L/usr/lib/R/lib -Wl,-z,relro -o lpSolve.so colamd.o commonlib.o hbio.o ini.o init.o isfixedvar.o lp_Hash.o lp_LUSOL.o lp_MDO.o lp_MPS.o lp_SOS.o lp_crash.o lp_lib.o lp_matrix.o lp_mipbb.o lp_params.o lp_presolve.o lp_price.o lp_pricePSE.o lp_report.o lp_rlp.o lp_scale.o lp_simplex.o lp_utils.o lp_wlp.o lpslink56.o lusol.o lusolio.o mmio.o myblas.o sparselib.o yacc_read.o -L/usr/lib/R/lib -lR
+"
+"2","installing to /home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/00LOCK-lpSolve/00new/lpSolve/libs
+"
+"2","** R
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** checking absolute paths in shared objects and dynamic libraries
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (lpSolve)
+"
+"2","* installing *source* package ‘RcppProgress’ ...
+"
+"2","** package ‘RcppProgress’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** inst
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (RcppProgress)
+"
+"2","* installing *source* package ‘geomorph’ ...
+"
+"2","** package ‘geomorph’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** R
+"
+"2","** data
+"
+"2","*** moving datasets to lazyload DB
+"
+"2","** inst
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** installing vignettes
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (geomorph)
+"
+"2","* installing *source* package ‘linprog’ ...
+"
+"2","** package ‘linprog’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** R
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (linprog)
+"
+"2","* installing *source* package ‘geometry’ ...
+"
+"2","** package ‘geometry’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** libs
+"
+"1","g++ -std=gnu++14 -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'    -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c QuadTree.cpp -o QuadTree.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rconvhulln.c -o Rconvhulln.o
+"
+"1","g++ -std=gnu++14 -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'    -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c RcppExports.cpp -o RcppExports.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rdelaunayn.c -o Rdelaunayn.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rgeometry.c -o Rgeometry.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rhalfspacen.c -o Rhalfspacen.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rinhulln.c -o Rinhulln.o
+"
+"1","g++ -std=gnu++14 -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'    -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rtsearch.cpp -o Rtsearch.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rtsearch_orig.c -o Rtsearch_orig.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c Rtsearchn.c -o Rtsearchn.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c geom2_r.c -o geom2_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c geom_r.c -o geom_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c geometry_init.c -o geometry_init.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c global_r.c -o global_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c io_r.c -o io_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c libqhull_r.c -o libqhull_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c mem_r.c -o mem_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c merge_r.c -o merge_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c poly2_r.c -o poly2_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c poly_r.c -o poly_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c qset_r.c -o qset_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c random_r.c -o random_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c rboxlib_r.c -o rboxlib_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c stat_r.c -o stat_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c user_r.c -o user_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c usermem_r.c -o usermem_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c userprintf_r.c -o userprintf_r.o
+"
+"1","gcc -I""/usr/share/R/include"" -DNDEBUG  -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/Rcpp/include' -I'/home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/RcppProgress/include'   -include Rgeometry.h -fpic  -g -O2 -ffile-prefix-map=/build/r-base-wZDgjM/r-base-4.2.2.20221110=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2  -c userprintf_rbox_r.c -o userprintf_rbox_r.o
+"
+"1","g++ -std=gnu++14 -shared -L/usr/lib/R/lib -Wl,-z,relro -o geometry.so QuadTree.o Rconvhulln.o RcppExports.o Rdelaunayn.o Rgeometry.o Rhalfspacen.o Rinhulln.o Rtsearch.o Rtsearch_orig.o Rtsearchn.o geom2_r.o geom_r.o geometry_init.o global_r.o io_r.o libqhull_r.o mem_r.o merge_r.o poly2_r.o poly_r.o qset_r.o random_r.o rboxlib_r.o stat_r.o user_r.o usermem_r.o userprintf_r.o userprintf_rbox_r.o -L/usr/lib/R/lib -lR
+"
+"2","installing to /home/alfredo/R/x86_64-pc-linux-gnu-library/4.2/00LOCK-geometry/00new/geometry/libs
+"
+"2","** R
+"
+"2","** demo
+"
+"2","** inst
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** installing vignettes
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** checking absolute paths in shared objects and dynamic libraries
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (geometry)
+"
+"2","* installing *source* package ‘Momocs’ ...
+"
+"2","** package ‘Momocs’ successfully unpacked and MD5 sums checked
+"
+"2","** using staged installation
+"
+"2","** R
+"
+"2","** data
+"
+"2","*** moving datasets to lazyload DB
+"
+"2","** inst
+"
+"2","** byte-compile and prepare package for lazy loading
+"
+"1","Note: wrong number of arguments to '*' 
+Note: wrong number of arguments to '>' 
+Note: wrong number of arguments to '<' 
+Note: wrong number of arguments to '/' 
+Note: wrong number of arguments to '*' 
+Note: wrong number of arguments to '*' 
+Note: wrong number of arguments to 'seq_along' 
+Note: wrong number of arguments to 'seq_along' 
+Note: wrong number of arguments to '!=' 
+"
+"2","** help
+"
+"2","*** installing help indices
+"
+"2","** building package indices
+"
+"2","** testing if installed package can be loaded from temporary location
+"
+"2","** testing if installed package can be loaded from final location
+"
+"2","** testing if installed package keeps a record of temporary installation path
+"
+"2","* DONE (Momocs)
+"
+"2","
+"
+"2",""
+"2","The downloaded source packages are in
+	‘/tmp/Rtmp4vuWzG/downloaded_packages’"
+"2",""
+"2","
+"

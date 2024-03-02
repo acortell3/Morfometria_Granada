@@ -1,0 +1,10 @@
+"0","if (i <= 15){
+  print(""i es menor o igual que 15"")
+} else {
+  print(""i no es menor o igual que 15"")
+}
+"
+"1","[1]"
+"1"," ""i no es menor o igual que 15"""
+"1","
+"
